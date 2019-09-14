@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans|Roboto&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#particles-js {
+  position: fixed;
+  background: linear-gradient(
+    to bottom,
+    #22232f,
+    #001620,
+    #13162e,
+    #282a3d,
+    #333440,
+    #444555,
+    #555666,
+    #888999,
+    #f0b4b4,
+    #f5d6d8,
+    #ece6e6
+  );
+  /* background-image: url(" "); */
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+main {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%);
+  z-index: 0;
+}
+
+h1 {
+  font: 100 2.5em/1.2em "Open Sans";
+  color: #ddd;
+}
+
+h3 {
+  color: #bbb;
+  font: 100 1.1em/1em "Libre Franklin";
+}
+
+/*  //////////////////////////////////////////  */
+/*  /////////////// Accordion ////////////////  */
+/*  //////////////////////////////////////////  */
+
+.accordion-wrapper {
+  background: rgba(220, 200, 220, 0.3);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.accoridion-section {
+  width: 100%;
+}
+
+.last-header {
+  border-bottom: none;
+}
+.accoridion-section .accordion-header:hover {
+  cursor: pointer;
+}
+.accoridion-section p {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.card {
+  border: none;
+}
+.card-body {
+  background-color: rgba(220, 200, 220, 0.3);
+}
+.card-header {
+  color: #ddd;
+  background-color: #001620 !important;
+}
+
+#accordion {
+  border: none;
+}
+
+button.btn-link {
+  color: #ccc;
+}
+
+button.btn-link:hover,
+button.btn-link:focus,
+button.btn-link:active {
+  text-decoration: none;
+  color: #eee;
+}

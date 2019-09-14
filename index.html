@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+      
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>FEWD</title>
+  </head>
+
+  <body>
+    <div id="particles-js"></div>
+    <main>
+      <header class="header">
+        <h1 class="h1">Welcome to Front End Web Development</h1>
+        <h3 class="h3">Lorem Ipsum</h3>
+      </header>
+
+      <!-- <section class="accordion-wrapper">
+        <div class="accoridion-section">
+          <h3 class="accordion-header">Week 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo
+            fugiat natus molestias alias aspernatur, ipsam reiciendis adipisci
+            aliquam consequuntur.
+          </p>
+        </div>
+        <div class="accoridion-section">
+          <h3 class="accordion-header">Week 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo
+            fugiat natus molestias alias aspernatur, ipsam reiciendis adipisci
+            aliquam consequuntur.
+          </p>
+        </div>
+        <div class="accoridion-section">
+          <h3 class="accordion-header last-header">Week 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo
+            fugiat natus molestias alias aspernatur, ipsam reiciendis adipisci
+            aliquam consequuntur.
+          </p>
+        </div>
+      </section> -->
+
+      <div id="accordion">
+          <div class="card">
+            <div class="card-header accordion-header" id="headingOne">
+              <h3 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 Week 1
+                </button>
+              </h3>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+               <h5>Coding Environment</h5>
+               <ul>   
+                 <li><a target="_blank" href="https://slack.com/downloads">Slack</a></li>
+                 <li><a target="_blank" href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
+                 <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools">Using Browser Dev Tools</a></li>
+                 <li><a target="_blank" href="https://www.mozilla.org/en-US/firefox/developer/">FireFox Developer</a></li>
+               </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h3 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Week 2
+                </button>
+              </h3>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h3 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 Week 3
+                </button>
+              </h3>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
