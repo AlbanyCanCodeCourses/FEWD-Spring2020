@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans|Roboto&display=swap");
+
+/*  //////////////////////////////////////////  */
+/*  ////////////////  Resets /////////////////  */
+/*  //////////////////////////////////////////  */
 html,
 body {
   padding: 0;
@@ -12,6 +16,32 @@ body {
   padding: 0;
   position: relative;
 }
+
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+h4,
+h5,
+h6 {
+  color: #333;
+  font-weight: 600;
+}
+
+a {
+  color: #333;
+}
+button.btn {
+  font: 600 1.2em/1.2em "Open Sans";
+}
+
+/*  //////////////////////////////////////////  */
+/*  /////////////// Particles ////////////////  */
+/*  //////////////////////////////////////////  */
 
 #particles-js {
   position: fixed;
@@ -29,7 +59,6 @@ body {
     #f5d6d8,
     #ece6e6
   );
-  /* background-image: url(" "); */
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -85,10 +114,14 @@ h3 {
 }
 .card {
   border: none;
+  background-color: rgba(210, 210, 223, 0.8);
+  border: 1px solid #eee;
 }
-.card-body {
-  background-color: rgba(220, 200, 220, 0.3);
+
+.card-inner-header {
+  text-shadow: -1px -1px 0#eee, 1px -1px 0#ddd, -1px 1px #ccc, 1px 1px 0#bbb;
 }
+
 .card-header {
   color: #ddd;
   background-color: #001620 !important;
@@ -107,4 +140,40 @@ button.btn-link:focus,
 button.btn-link:active {
   text-decoration: none;
   color: #eee;
+}
+
+/*  //////////////////////////////////////////  */
+/*  ////////////////// Days //////////////////  */
+/*  //////////////////////////////////////////  */
+
+.day-1,
+.day-2 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  position: relative;
+  display: block;
+}
+
+.day-1:before {
+  content: "";
+  border-right: 1px solid #bbffbb;
+  border-radius: 50%;
+  height: 70%;
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+
+.days,
+.info {
+  color: #bbffbb;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-shadow: -1px -1px 0 #778899, 1px -1px 0 #778899, -1px 1px 0 #778899,
+    1px 1px 0 #778899;
+}
+
+.days p {
+  margin-bottom: 0;
 }
