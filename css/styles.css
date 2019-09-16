@@ -78,10 +78,13 @@ main {
 }
 
 h1 {
-  font: 100 2.5em/1.2em "Open Sans";
+  font: 100 2.5em/1.5em "Open Sans";
   color: #ddd;
+  padding: 20px;
 }
-
+header {
+  margin-bottom: 50px;
+}
 h3 {
   color: #bbb;
   font: 100 1.1em/1em "Libre Franklin";
