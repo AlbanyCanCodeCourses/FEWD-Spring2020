@@ -88,6 +88,19 @@ nav {
   background-color: #1b1c25;
 }
 nav a {color: #fff;}
+
+nav li {
+  float: left;
+}
+nav ul ul li {
+  display: none;
+  position: absolute;
+  background: #444;
+  margin: 0;
+}
+nav ul li:hover nav ul ul li {
+  display: block;
+}
 main {
   /* text-align: center; */
   position: absolute;
@@ -206,8 +219,8 @@ button.btn-link:active {
 }
 
 footer {
-  /* position: absolute; */
-  /* bottom: 0;
+  /* position: absolute; 
+  bottom: 0;
   min-height: 75px;
   background-image: url("/img/footer\ clouds.png");
   background-position: center;
