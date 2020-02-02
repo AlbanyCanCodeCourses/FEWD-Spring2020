@@ -1,5 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans|Roboto&display=swap");
+<?php
+    header("Content-type: text/css; charset: UTF-8");
+?>
 
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans|Roboto&display=swap");
 
 html,
 body {
@@ -37,57 +40,43 @@ button.btn {
   font: 600 1.2em/1.2em "Open Sans";
 }
 
-#particles-js {
-  position: fixed;
-  background: linear-gradient(
-    to bottom,
-    #22232f,
-    #001620,
-    #13162e,
-    #282a3d,
-    #333440,
-    #444555,
-    #555666,
-    #888999,
-    #f0b4b4,
-    #f5d6d8,
-    #ece6e6
-  );
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-}
+
 nav li {
   float: left;
   font: 600 1em/1.4em sans-serif;
   height: 100%;
-  padding:15px 15px 0 15px; 
+  padding: 15px 15px 0 15px;
   margin-bottom: 0;
-
 
   /* background: #000; */
 }
 code {
-  font: 400 1em/1em ;
+  font: 400 1em/1em;
   background-color: #aaa;
   padding: 1px 3px;
   border: 1px solid#1b1c25;
   border-radius: 3px;
 }
+.acc-logo {
+  height: 50px;
+  width: 50px;
+}
+
+
+
 nav {
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
   flex-wrap: nowrap;
   align-self: center;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   background-color: #1b1c25;
 }
-nav a {color: #fff;}
+nav a {
+  color: #fff;
+}
 
 nav li {
   float: left;
@@ -158,7 +147,8 @@ h3 {
 }
 
 .card-inner-header {
-  text-shadow: -1px -1px 0#eee, 1px -1px 0#ddd, -1px 1px #ccc, 1px 1px 0#bbb;
+  text-shadow: -1px -1px 0#eee, 1px -1px 0#ddd, -1px 1px #ccc,
+    1px 1px 0#bbb;
 }
 
 .card-header {
@@ -206,8 +196,8 @@ button.btn-link:active {
   margin-top: 15px;
   font-weight: 600;
   margin-bottom: 10px;
-  text-shadow: -1px -1px 0 #778899, 1px -1px 0 #778899, -1px 1px 0 #778899,
-    1px 1px 0 #778899;
+  text-shadow: -1px -1px 0 #778899, 1px -1px 0 #778899,
+    -1px 1px 0 #778899, 1px 1px 0 #778899;
 }
 .lab.card {
   padding: 10px;
